@@ -2,7 +2,7 @@ FROM java:8-jre
 
 MAINTAINER nobusugi246
 
-ADD https://github.com/gitbucket/gitbucket/releases/download/4.26.0/gitbucket.war /opt/gitbucket.war
+ADD https://github.com/gitbucket/gitbucket/releases/download/4.27.0/gitbucket.war /opt/gitbucket.war
 
 RUN ln -s /gitbucket /root/.gitbucket
 
